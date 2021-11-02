@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(132, 0, 255);
+    font-family: monospace;
+    font-size: 1.4rem;
+}
+
+code {
+    background-color: rgba(245, 222, 179, 0.644);
+}
+
+/* Flexbox esst une solution pour aligner les éléments de facon horizontale mais aussi vertical. Comme float, Flex va permettre d(afficher les eélement les uns à cotés des autres. */
+
+.rouge {
+    width: 100px;
+    background-color: red;
+    color: rgb(29, 19, 0);
+}
+
+
+.orange {
+    width: 100px;
+    background-color:orangered;
+    color: rgb(29, 19, 0);
+}
+
+.orange-clair {
+    width: 100px;
+    background-color:orange;
+    color: rgb(29, 19, 0);
+}
+
+.jaune {
+    width: 100px;
+    background-color:yellow;
+    color: rgb(29, 19, 0);
+}
+
+/* Les couleurs permettent de bien visisualiser les changgemnt dans leur comportement */
+
+
+/* Ils existe differentes valeur pour justify-content: -flext-start, ve qui veut dire que certzin element ce place au debut, flex-end, ceplace a la fin des elements,  */
+.jc-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    /* Si notre section parents à une hauteur, les enfants ont par defaut cette hauteur. celecomportement par défauts de comportement desfaut derest align-items, 'strechs (étends-toi */
+}
+
+.jc-around {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    /* Si notre section parents à une hauteur, les enfants ont par defaut cette hauteur. celecomportement par défauts de comportement desfaut derest align-items, 'strechs (étends-toi */
+}
+
+
+.space-between {
+    
+    display: flex;
+    justify-content: space-between;
+    height: 100px; 
+    
+}
+
+.order {
+    display: flex;
+    justify-content: space-around;
+}
+
+.order .rouge {
+    order: -2;
+}
+
+.order .orange-clair {
+    /* Order, est une propiete utile en responsive car elle permet de deplacer un elements à une position donné */
+    order: -1;
+}
+
+.stretch {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: stretch;/* C'est la valeur par defaut */
+}
+
+.baseline {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: baseline;/* Les divs s'afffiche à la hauteur de la ligne de caractère    */
+}
+
+.align-items-flex-start {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: flex-start; /* Les divs s'aligne en haut */
+}
+
+.align-items-flex-end {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: flex-end;/* Les divs s'aligne en bas   */
+}
+
+.align-items-center {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;/* Les divs s'afffiche à la hauteur de la ligne de caractère    */
+}

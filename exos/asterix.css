@@ -1,0 +1,163 @@
+/* Notre grille de 12 colonnes */
+/* on définis la largeur des colonnes en pourcentage: 100/12 dennera la taille de notre prèmiere colonne que 'lon taille de notre */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+    body {
+    background-color: rgb(132, 0, 255);
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+
+
+
+.mx-auto {
+    /* m-auto: centrer un contenu, x signifie horizontalement */
+    background-color: lavender;
+    margin: auto;
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap, est utile pour faire en sorte de metre a la lligne si tous les espace sont plein sur une ligne */
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap; 
+}
+
+
+.col-1 {
+    width: 8.3333333%;
+    padding: 4px;
+}
+
+.col-2 {
+    width: 16.666666%;
+    padding: 4px;
+}
+
+
+.col-3 {
+    width: 25%;
+    padding: 4px;
+}
+
+
+.col-4 {
+    width: 33.333333%;
+    padding: 4px;
+    background-color: olivedrab;
+}
+
+
+.col-5 {
+    width: 41.666666%;
+    padding: 4px;
+}
+
+
+.col-6 {
+    width: 50%;
+    padding: 4px;
+}
+
+
+.col-7 {
+    width: 58.666666%;
+    padding: 4px;
+}
+
+
+.col-8 {
+    width: 66.666666%;
+    padding: 4px;
+}
+
+
+.col-9 {
+    width: 75%;
+    padding: 4px;
+}
+
+
+.col-10 {
+    width: 83.3333333%;
+    padding: 4px;
+}
+
+
+.col-11 {
+    width: 91.666666%;
+    padding: 4px;
+}
+
+
+.col-12 {
+    width: 100%;
+    padding: 4px;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.orangered {
+    background-color: orangered;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.darkorange {
+    background-color: darkorange;
+}
+
+.darkgoldenrod {
+    background-color: darkgoldenrod;
+}
+
+.goldenrod {
+    background-color: goldenrod;
+}
+
+.greenyellow {
+    background-color: greenyellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.darkolivegreen {
+    background-color: darkolivegreen;
+}
+
+.olive {
+    background-color: olive;
+}
+
+.olivedrab {
+    background-color: olivedrab;
+}
+
+.ligne {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+
+}

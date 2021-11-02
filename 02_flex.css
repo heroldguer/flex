@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(132, 0, 255);
+    font-family: monospace;
+    font-size: 1.4rem;
+}
+
+code {
+    background-color: rgba(245, 222, 179, 0.644);
+}
+
+/* Flexbox esst une solution pour aligner les éléments de facon horizontale mais aussi vertical. Comme float, Flex va permettre d(afficher les eélement les uns à cotés des autres. */
+
+.rouge {
+    background-color: red;
+    color: rgb(29, 19, 0);
+}
+
+
+.orange {
+    background-color:orangered;
+    color: rgb(29, 19, 0);
+}
+
+.orange-clair {
+    background-color:orange;
+    color: rgb(29, 19, 0);
+}
+
+.jaune {
+    background-color:yellow;
+    color: rgb(29, 19, 0);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    /* grâce au display flex associé à flex-direction row, on a affiche les elements enfants de notre section en rangées les uns à cotes des autres */
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    /* rendu par défaut */
+
+}
+
+.column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
